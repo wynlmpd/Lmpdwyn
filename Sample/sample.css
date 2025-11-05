@@ -1,0 +1,117 @@
+body {
+    justify-content: center;
+    background:radial-gradient(circle, gray, black);
+}
+h3{
+    color: white;
+    margin-left: 10px;
+}
+
+ul{
+    text-align: end;
+    margin-right: 40px;
+    background-color: darkgray;
+    height: 35px;
+    width: 1310px;
+    li{
+        display: inline-flex;
+        background-color: white;
+        padding: 5px 10px;
+        border-radius: 8px;
+        font-weight: 600;
+        margin: 3px;
+        border: 1px solid black;
+    }
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    background-color: darkgray;
+    transform: scale(1.1);
+}
+h4 {
+    color: white;
+}
+.container {
+    display: flex;
+}
+.item1 {
+    img{
+    height: 150px;
+    width: 140px;
+    margin-top: 0px;
+    }
+}
+.item2 {
+    height: 140px;
+    width: 100%;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 10px;
+    background-color: darkgray;
+}
+.card {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+    .card1 {
+        height: 400px;
+        width: 300px;
+        background-color: darkgray;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .card2 {
+        height: 400px;
+        width: 300px;
+        background-color: darkgray;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .card3 {
+        height: 400px;
+        width: 300px;
+        background-color: darkgray;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .card4 {
+        height: 400px;
+        width: 300px;
+        background-color: darkgray;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    img {
+        height: 200px;
+        width: 250px;
+        border-radius: 10px;
+    }
+    p {
+        margin-top: 45px;
+        text-align: start;
+        line-height: 20px;
+    }
+    button {
+        margin-top: 10px;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+    }
+}
+.contact {
+    background-color: darkgray;
+    height: 210px;
+    width: 1350px;
+    line-height: 30px;
+    h3{
+        color: black;
+    }
+}
